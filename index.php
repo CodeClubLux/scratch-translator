@@ -29,6 +29,15 @@ $languages = glob('languages/*.po');
     <h2 class="form-heading">Scratch translator</h2>
 
     <p>
+        How to use: Paste a file from the <a href="https://github.com/CodeClub/scratch-curriculum/" target="_blank">Scratch curriculum</a> into the text area below, select the
+        target language and click "translate". The code blocks will automatically be translated to their counterparts from the selected target language.
+    </p>
+
+    <p>
+        Refer to the <a href="https://github.com/CodeClubLux/scratch-translator" target="_blank">GitHub project</a> if you encounter bugs or would like to add a language.
+    </p>
+
+    <p>
         <label for="original">Source</label>
         <textarea id="original" name="original"><?php if (isset($_POST['original'])) echo htmlentities($_POST['original']) ?></textarea><br/>
 
@@ -95,7 +104,7 @@ $languages = glob('languages/*.po');
                         $target = preg_replace('|%[a-zA-Z]|', '\\\\' . ++$i, $target, 1);
                     }
 
-                    $translated_text = preg_replace($delimiter_start . '(\W)' . $source . '(\W)' . $delimiter_end . 'Umui', '\\1' . $target . '\\' . ++$i. '\\' . ++$i, $translated_text);
+                    $translated_text = preg_replace($delimiter_start . '(\W)' . $source . '(\W)' . $delimiter_end . 'Umui', '\\1' . $target . '\\' . ++$i . '\\' . ++$i, $translated_text);
                 }
                 return $translated_text;
             };
