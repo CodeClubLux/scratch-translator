@@ -73,7 +73,7 @@ $languages = glob('languages/*.po');
             // Construct the regex for the source text
             $source = $entry['msgid'];
             $source = preg_replace('/%[a-zA-Z]/', '(\s?[a-zA-Z0-9_.\-!\?]+(?:\s[a-zA-Z0-9_.\-!\?]+){0,5})', $source);
-            $source = '(^[\s\t]*|\()' . $source . '([\s\t]*$|\))';
+            $source = '(^[\s\t]*|\(|"|__)' . $source . '([\s\t]*$|\)|"|__)';
 
             // Construct the replacement pattern
             $target = implode('', $entry['msgstr']); // the msgstr can be made of several lines which we need to join
