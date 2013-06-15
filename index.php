@@ -45,7 +45,7 @@ $languages = glob('languages/*.po');
         <select id="language" name="language">
             <?php
             foreach ($languages as $language) {
-                echo "<option>$language</option>";
+                echo '<option'.(isset($_POST['language']) && $language == $_POST['language'] ? ' selected="selected"' : '').'>'.$language.'</option>';
             }
             ?>
         </select><br/>
