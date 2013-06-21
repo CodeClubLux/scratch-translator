@@ -3,19 +3,20 @@ msgstr ""
 "Project-Id-Version: Scratch\n"
 "Report-Msgid-Bugs-To: Evelyn Eastmond <evelyn@media.mit.edu>\n"
 "POT-Creation-Date: 2008-02-18 03:58-0400\n"
-"PO-Revision-Date: 2013-04-02 22:25+0200\n"
-"Last-Translator: Markus <m.slg@gmx.de>\n"
+"PO-Revision-Date: 2009-06-16 12:10-0400\n"
+"Last-Translator: Markus Schlager <m.slg@gmx.de>\n"
 "Language-Team: Mtw <martin.wollenweber@gmx.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.1.6\n"
+"X-Generator: Pootle 1.2.0\n"
 
 ############################################
 # FORMATTING
 ############################################
+
 # Language name as you'd like it to appear in the Languages menu
 # (Required)
 msgid "Language-Name"
@@ -39,37 +40,23 @@ msgstr "false"
 
 # Font to use on a Windows system
 # (Markus S.) bitte nicht übersetzen. Hier müsste man ggf. eine Schriftart eintragen
-# Font to use on a Windows system<br />
-# <br />
-# (Markus S.) bitte nicht übersetzen. Hier müsste man ggf. eine Schriftart eintragen<br />
-# Font to use on a Windows system&lt;br /&gt;<br />
-# &lt;br /&gt;
 msgid "Win-Font"
 msgstr ""
 
 # Font to use on a Mac system
 # (Markus S.) bitte nicht übersetzen. Hier müsste man ggf. eine Schriftart eintragen
-# Font to use on a Mac system<br />
-# <br />
-# (Markus S.) bitte nicht übersetzen. Hier müsste man ggf. eine Schriftart eintragen<br />
-# Font to use on a Mac system&lt;br /&gt;<br />
-# &lt;br /&gt;
 msgid "Mac-Font"
 msgstr ""
 
 # Font to use on a Linux system
 # (Markus S.) bitte nicht übersetzen. Hier müsste man ggf. eine Schriftart eintragen
-# Font to use on a Linux system<br />
-# <br />
-# (Markus S.) bitte nicht übersetzen. Hier müsste man ggf. eine Schriftart eintragen<br />
-# Font to use on a Linux system&lt;br /&gt;<br />
-# &lt;br /&gt;
 msgid "Linux-Font"
 msgstr ""
 
 ############################################
 # BLOCKS
 ############################################
+
 msgid "%H sensor value"
 msgstr "Wert von Sensor %H"
 
@@ -266,7 +253,7 @@ msgid "mouse y"
 msgstr "Maus y-Position"
 
 msgid "move %n steps"
-msgstr "gehe %ner-Schritt"
+msgstr "gehe %n-er Schritt"
 
 msgid "next background"
 msgstr "nächster Hintergrund"
@@ -290,26 +277,22 @@ msgstr "Malstift"
 # (Jens) Tut mir leid, aber mit "senke Stift ab" und "hebe Stift an" werde mich wohl niemals anfreunden können.
 # (Markus S.) war 'Stift runter', das aber bitte nicht. Darüber gab es bei uns an der Schule längere Diskussionen; aus Konsistenzgründen bitte immer Imperative auf den Kacheln.
 # (Jens) Tut mir leid, aber mit "senke Stift ab" und "hebe Stift an" werde mich wohl niemals anfreunden können.
-# (Markus S.) war 'setze Stift auf'
-# 
 msgid "pen down"
-msgstr "zeichne Spur"
+msgstr "senke Stift ab"
 
 # (Markus S.) war 'Stift hoch', das aber bitte nicht. Darüber gab es bei uns an der Schule längere Diskussionen; aus Konsistenzgründen bitte immer Imperative auf den Kacheln.
 # (Markus S.) war 'Stift hoch', das aber bitte nicht. Darüber gab es bei uns an der Schule längere Diskussionen; aus Konsistenzgründen bitte immer Imperative auf den Kacheln.
-# (Markus S.) war 'hebe Stift an'
-# 
 msgid "pen up"
-msgstr "zeichne nicht"
+msgstr "hebe Stift an"
 
 msgid "pick random %n to %n"
-msgstr "wähle zufällig aus %n bis %n"
+msgstr "Zufallszahl von %n bis %n"
 
 msgid "play drum %D for %n beats"
 msgstr "spiele Schlagzeug %D für %n Schläge"
 
 msgid "play note %N for %n beats"
-msgstr "spiele Ton %N für %n Schläge"
+msgstr "spiele Note %N für %n Schläge"
 
 msgid "play sound %S"
 msgstr "spiele Klang %S"
@@ -320,12 +303,12 @@ msgid "play sound %S until done"
 msgstr "spiele Klang %S ganz"
 
 msgid "point in direction %d"
-msgstr "zeige in Richtung %d"
+msgstr "zeige Richtung %d"
 
 # (Markus S.) war 'zeige auf %m'
 # (Markus S.) war 'zeige auf %m'
 msgid "point towards %m"
-msgstr "zeige zu %m"
+msgstr "zeige auf %m"
 
 msgid "repeat %n"
 msgstr "wiederhole %n mal"
@@ -475,6 +458,7 @@ msgstr "y-Position"
 ############################################
 # USER INTERFACE
 ############################################
+
 msgid "(empty)"
 msgstr "(leer)"
 
@@ -555,7 +539,7 @@ msgid "Choose a folder"
 msgstr "Wähle einen Ordner"
 
 msgid "Choose new sprite from file"
-msgstr "Neue Figur aus Datei laden"
+msgstr "Neues Objekt aus Datei laden"
 
 msgid "clean up"
 msgstr "Aufräumen"
@@ -656,7 +640,7 @@ msgid "Delete this sound"
 msgstr "Diesen Klang löschen"
 
 msgid "Delete this sprite"
-msgstr "Diese Figur löschen"
+msgstr "Dieses Objekt löschen"
 
 msgid "Desktop"
 msgstr "Desktop"
@@ -760,7 +744,7 @@ msgid "Export Sound"
 msgstr "Klang exportieren"
 
 msgid "Export Sprite"
-msgstr "Figur exportieren"
+msgstr "Objekt exportieren"
 
 msgid "export this costume"
 msgstr "Dieses Kostüm exportieren"
@@ -769,7 +753,7 @@ msgid "export this sound"
 msgstr "Diesen Klang exportieren"
 
 msgid "export this sprite"
-msgstr "Diese Figur exportieren"
+msgstr "Dieses Objekt exportieren"
 
 msgid "Extras menu"
 msgstr "Extras-Menü"
@@ -815,16 +799,16 @@ msgid "Flip vertically"
 msgstr "Vertikal spiegeln"
 
 msgid "For all sprites"
-msgstr "Für alle Figuren"
+msgstr "Für alle Objekte"
 
 msgid "For this sprite only"
-msgstr "Nur für diese Figur"
+msgstr "Nur für dieses Objekt"
 
 msgid "Game"
 msgstr "Spiel"
 
 msgid "Get surprise sprite"
-msgstr "Überraschungsfigur"
+msgstr "Überraschungsobjekt"
 
 msgid "Get the last thing deleted"
 msgstr "Letzten Schritt rückgängig machen"
@@ -842,13 +826,13 @@ msgid "grab screen region for new costume"
 msgstr "Neues Kostüm aus Bildschirmbereich erstellen"
 
 msgid "grab screen region for new sprite"
-msgstr "Neue Figur aus Bildschirmbereich erstellen"
+msgstr "Neues Objekt aus Bildschirmbereich erstellen"
 
 msgid "Grow"
 msgstr "Vergrößern"
 
 msgid "Grow sprite"
-msgstr "Figur vergrößern"
+msgstr "Objekt vergrößern"
 
 msgid "hello "
 msgstr "Hallo "
@@ -1024,7 +1008,7 @@ msgid "New costume:"
 msgstr "Neues Kostüm:"
 
 msgid "New file name?"
-msgstr "Dateiname?"
+msgstr ""
 
 msgid "New Filename:"
 msgstr "Dateiname:"
@@ -1033,10 +1017,10 @@ msgid "New sound:"
 msgstr "Neuer Klang:"
 
 msgid "New Sprite"
-msgstr "Neue Figur"
+msgstr "Neues Objekt"
 
 msgid "New sprite:"
-msgstr "Neue Figur:"
+msgstr "Neues Objekt:"
 
 msgid "No"
 msgstr "Nein"
@@ -1093,7 +1077,7 @@ msgid "Paint Editor"
 msgstr "Malprogramm"
 
 msgid "Paint new sprite"
-msgstr "Neue Figur malen"
+msgstr "Neues Objekt malen"
 
 msgid "Paintbrush"
 msgstr "Pinsel"
@@ -1181,7 +1165,7 @@ msgid "resistance"
 msgstr "Widerstand"
 
 msgid "resize this sprite"
-msgstr "Die Größe dieser Figur ändern"
+msgstr "Die Größe dieses Objekts verändern"
 
 msgid "reverse"
 msgstr "umkehren"
@@ -1199,7 +1183,7 @@ msgid "Rotate counter-clock-wise"
 msgstr "Gegen den Uhrzeigersinn drehen"
 
 msgid "rotate this sprite"
-msgstr "Diese Figur drehen"
+msgstr "Dieses Objekt drehen"
 
 msgid "Rotation degrees?"
 msgstr "Drehwinkel"
@@ -1291,7 +1275,7 @@ msgid "Shrink"
 msgstr "Schrumpfen"
 
 msgid "Shrink sprite"
-msgstr "Figur schrumpfen"
+msgstr "Objekt schrumpfen"
 
 msgid "Simulation"
 msgstr "Simulation"
@@ -1323,10 +1307,10 @@ msgid "space"
 msgstr "Leertaste"
 
 msgid "Sprite"
-msgstr "Figur"
+msgstr "Objekt"
 
 msgid "Sprites"
-msgstr "Figuren"
+msgstr "Objekte"
 
 msgid "sqrt"
 msgstr "Wurzel"
@@ -1401,7 +1385,7 @@ msgid "this way"
 msgstr "in diese Richtung"
 
 # (Markus S.) war 'kippen', aber es handelt sich um einen Sensorwert
-# (Markus S.) war 'kippen', aber es handelt sich um einen Sensorwert
+#, fuzzy
 msgid "tilt"
 msgstr "Neigung"
 
@@ -1414,7 +1398,7 @@ msgid "Turbo speed"
 msgstr "Turbo"
 
 msgid "turn into new sprite"
-msgstr "In eine neue Figur umwandeln"
+msgstr "In ein neues Objekt umwandeln"
 
 msgid "Undelete"
 msgstr "Löschen rückgängig machen"
@@ -1479,11 +1463,7 @@ msgstr "Herauszoomen"
 ############################################
 # MIDI INSTRUMENTS
 ############################################
-############################################
-# FORMATTING
-# BLOCKS
-# USER INTERFACE
-# MIDI INSTRUMENTS
+
 msgid "Accordion"
 msgstr "Akkordeon"
 
@@ -1958,7 +1938,7 @@ msgid "Tambourine"
 msgstr "Tamburin"
 
 msgid "Tango Accordion"
-msgstr "Bandoneon"
+msgstr "Tango-Akkordeon"
 
 msgid "Telephone Ring"
 msgstr "Telefonklingel"
@@ -2010,3 +1990,4 @@ msgstr "Holzblock"
 
 msgid "Xylophone"
 msgstr "Xylophon"
+

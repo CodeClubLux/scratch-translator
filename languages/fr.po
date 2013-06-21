@@ -3,22 +3,20 @@ msgstr ""
 "Project-Id-Version: Scratch\n"
 "Report-Msgid-Bugs-To: Evelyn Eastmond <evelyn@media.mit.edu>\n"
 "POT-Creation-Date: 2008-03-06 11:40-0400\n"
-"PO-Revision-Date: 2010-08-13 04:47-0400\n"
-"Last-Translator: LS97 <silvisoft@ymail.com>\n"
+"PO-Revision-Date: 2009-06-21 12:50-0400\n"
+"Last-Translator: murielnovelli <muriel.novelli@ac-aix-marseille.fr>\n"
 "Language-Team: Lionel Laské <llaske@c2s.fr>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 1.2.1\n"
+"X-Generator: Pootle 1.2.0\n"
 
 ############################################
 # FORMATTING
 ############################################
 
-# Language name as you'd like it to appear in the Languages menu
-# (Required)
 # Language name as you'd like it to appear in the Languages menu
 # (Required)
 msgid "Language-Name"
@@ -35,23 +33,22 @@ msgstr "LTR"
 msgid "Font-Scale"
 msgstr "1"
 
-# Set to 'true' or 'false'&lt;br /&gt;<br />
-# &lt;br /&gt;<br />
+# Set to 'true' or 'false'
 # Use this if you do not want any of the text to be bolded, for legibility
 msgid "Suppress-Bold"
-msgstr "0"
+msgstr ""
 
 # Font to use on a Windows system
 msgid "Win-Font"
-msgstr "Win-Police"
+msgstr ""
 
 # Font to use on a Mac system
 msgid "Mac-Font"
-msgstr "Mac-Police"
+msgstr ""
 
 # Font to use on a Linux system
 msgid "Linux-Font"
-msgstr "Fonte Linux"
+msgstr ""
 
 ############################################
 # BLOCKS
@@ -97,34 +94,34 @@ msgid "broadcast %e and wait"
 msgstr "envoyer à tous %e et attendre"
 
 msgid "change %g effect by %n"
-msgstr "ajouter %n à l’effet %g"
+msgstr "modifier l’effet %g par %n"
 
 msgid "change %v by %n"
-msgstr "ajouter %n à %v "
+msgstr "changer %v par %n"
 
 msgid "change pen color by %n"
-msgstr "ajouter %n à couleur du stylo"
+msgstr "modifier la couleur du stylo par %n"
 
 msgid "change pen shade by %n"
-msgstr "ajouter %n à l'intensité du stylo"
+msgstr "modifier l'intensité du stylo par %n"
 
 msgid "change pen size by %n"
-msgstr "ajouter %n à la taille du stylo"
+msgstr "modifier la taille du stylo par %n"
 
 msgid "change size by %n"
-msgstr "ajouter %n à la taille"
+msgstr "modifier la taille par %n"
 
 msgid "change tempo by %n"
-msgstr "ajouter %n au tempo"
+msgstr "modifier le tempo par %n"
 
 msgid "change volume by %n"
-msgstr "ajouter %n au volume"
+msgstr "modifier le volume par %n"
 
 msgid "change x by %n"
-msgstr "ajouter %n à x"
+msgstr "remplacer x par %n"
 
 msgid "change y by %n"
-msgstr "ajouter %n à y"
+msgstr "remplacer y par %n"
 
 msgid "clear"
 msgstr "effacer tout"
@@ -142,7 +139,7 @@ msgid "costume #"
 msgstr "costume n°"
 
 msgid "delete %y of %L"
-msgstr "supprimer l'élément %y de la liste %L"
+msgstr "supprimer %y de %L"
 
 msgid "direction"
 msgstr "direction"
@@ -187,7 +184,7 @@ msgid "if on edge, bounce"
 msgstr "rebondir si le bord est atteint"
 
 msgid "insert %s at %i of %L"
-msgstr "insérer %s en position %i de la liste %L"
+msgstr "insérer %s à %i de %L"
 
 msgid "item %i of %L"
 msgstr "élément %i de %L"
@@ -265,7 +262,7 @@ msgid "pen"
 msgstr "stylo"
 
 msgid "pen down"
-msgstr "stylo en position d'écriture"
+msgstr "abaisser le stylo"
 
 msgid "pen up"
 msgstr "relever le stylo"
@@ -274,22 +271,22 @@ msgid "pick random %n to %n"
 msgstr "nombre aléatoire entre %n et %n"
 
 msgid "play drum %D for %n beats"
-msgstr "jouer du tambour %D pendant %n temps"
+msgstr "jouer tambour %D pour %n temps"
 
 msgid "play note %N for %n beats"
-msgstr "jouer la note %N pendant %n temps"
+msgstr "jouer note %N pour %n temps"
 
 msgid "play sound %S"
 msgstr "jouer le son %S"
 
 msgid "play sound %S until done"
-msgstr "jouer le son %S jusqu'au bout"
+msgstr "jouer le son %S complètement"
 
 msgid "point in direction %d"
-msgstr "se diriger en faisant un angle de %d"
+msgstr "pointer en direction %d"
 
 msgid "point towards %m"
-msgstr "se diriger vers %m"
+msgstr "pointer vers %m"
 
 msgid "repeat %n"
 msgstr "répéter %n fois"
@@ -298,7 +295,7 @@ msgid "repeat until %b"
 msgstr "répéter jusqu’à %b"
 
 msgid "replace item %i of %L with %s"
-msgstr "remplacer l'élément %i de la liste %L par %s"
+msgstr "remplacer %i dans %L par %s"
 
 msgid "reset timer"
 msgstr "réinitialiser le chronomètre"
@@ -322,40 +319,40 @@ msgid "sensor %h?"
 msgstr "capteur %h activé?"
 
 msgid "set %g effect to %n"
-msgstr "choisir l'effet %g pour %n"
+msgstr "mettre l’effet %g à %n"
 
 msgid "set %v to %n"
-msgstr " %v prend la valeur %n"
+msgstr "à %v attribuer %n"
 
 msgid "set instrument to %I"
-msgstr "choisir l'instrument n° %I"
+msgstr "mettre l'instrument à %I"
 
 msgid "set pen color to %c"
-msgstr "mettre la couleur %c pour le stylo"
+msgstr "mettre la couleur du stylo à %c"
 
 msgid "set pen color to %n"
-msgstr "choisir la couleur %n pour le stylo"
+msgstr "mettre la couleur du stylo à %n"
 
 msgid "set pen shade to %n"
-msgstr "choisir l'intensité %n pour le stylo"
+msgstr "mettre l'intensité du stylo à %n"
 
 msgid "set pen size to %n"
-msgstr "mettre la taille %n pour le stylo"
+msgstr "mettre la taille du stylo à %n"
 
 msgid "set size to %n%"
-msgstr "choisir %n % de la taille initiale"
+msgstr "mettre la taille à %n%"
 
 msgid "set tempo to %n bpm"
-msgstr "choisir le tempo à %n bpm"
+msgstr "mettre le tempo à %n bpm"
 
 msgid "set volume to %n%"
-msgstr "choisir le volume au niveau %n%"
+msgstr "mettre le volume à %n%"
 
 msgid "set x to %n"
-msgstr "donner la valeur %n à x"
+msgstr "mettre x à %n"
 
 msgid "set y to %n"
-msgstr "donner la valeur %n à y"
+msgstr "mettre y à %n"
 
 msgid "show"
 msgstr "montrer"
@@ -497,7 +494,7 @@ msgid "button pressed"
 msgstr "bouton pressé"
 
 msgid "Camera"
-msgstr "Webcam"
+msgstr "Caméra"
 
 msgid "can rotate"
 msgstr "peut pivoter"
@@ -511,18 +508,11 @@ msgstr "Annuler"
 msgid "Choose a folder"
 msgstr "Choisissez un dossier"
 
-# I propose to translate sprite by lutin : see the documents produced by&amp;amp;amp;amp;amp;lt;span class="translation-space"&amp;amp;amp;amp;amp;gt; &amp;amp;amp;amp;amp;lt;/span&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;br /&amp;amp;amp;amp;gt;&amp;amp;amp;lt;br /&amp;amp;amp;gt;&amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# &amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# &amp;amp;amp;amp;amp;lt;span class="translation-space"&amp;amp;amp;amp;amp;gt; &amp;amp;amp;amp;amp;lt;/span&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;br /&amp;amp;amp;amp;gt;&amp;amp;amp;lt;br /&amp;amp;amp;gt;&amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# &amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# josee desharnais&amp;amp;amp;amp;amp;lt;span class="translation-space"&amp;amp;amp;amp;amp;gt; &amp;amp;amp;amp;amp;lt;/span&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;br /&amp;amp;amp;amp;gt;&amp;amp;amp;lt;br /&amp;amp;amp;gt;&amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# &amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# &amp;amp;amp;amp;amp;lt;span class="translation-space"&amp;amp;amp;amp;amp;gt; &amp;amp;amp;amp;amp;lt;/span&amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;br /&amp;amp;amp;amp;gt;&amp;amp;amp;lt;br /&amp;amp;amp;gt;&amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
-# &amp;amp;lt;br /&amp;amp;gt;&amp;lt;br /&amp;gt;&lt;br /&gt;<br />
+# I propose to translate sprite by lutin : see the documents produced by&amp;lt;span class="translation-space"&amp;gt; &amp;lt;/span&amp;gt;&lt;br /&gt;<br />
+# &amp;lt;span class="translation-space"&amp;gt; &amp;lt;/span&amp;gt;&lt;br /&gt;<br />
+# josee desharnais&amp;lt;span class="translation-space"&amp;gt; &amp;lt;/span&amp;gt;&lt;br /&gt;<br />
+# &amp;lt;span class="translation-space"&amp;gt; &amp;lt;/span&amp;gt;&lt;br /&gt;<br />
 # josee.desharnais@ift.ulaval.ca.
-# Note: certains proposent de traduire sprite en lutin.
-# C'est fait dans la version canadienne.
-# Ici, on utilise "object", qui fonctionne bien aussi, et donne le choix...
 msgid "Choose new sprite from file"
 msgstr "Choisir un nouvel objet dans un dossier"
 
@@ -717,7 +707,7 @@ msgid "Export Sound"
 msgstr "Exporter un son"
 
 msgid "Export Sprite"
-msgstr "Exporter un objet"
+msgstr "Exporter un sprite"
 
 msgid "export this costume"
 msgstr "exporter ce costume"
@@ -726,7 +716,7 @@ msgid "export this sound"
 msgstr "exporter ce son"
 
 msgid "export this sprite"
-msgstr "exporter cet objet"
+msgstr "exporter cet  objet"
 
 msgid "Extras menu"
 msgstr "Menu Extras"
@@ -972,7 +962,7 @@ msgid "New costume:"
 msgstr "Nouveau costume :"
 
 msgid "New file name?"
-msgstr "Nouveau nom de fichier ?"
+msgstr ""
 
 msgid "New Filename:"
 msgstr "Nouveau nom de fichier :"
@@ -981,7 +971,7 @@ msgid "New sound:"
 msgstr "Nouveau son :"
 
 msgid "New Sprite"
-msgstr "Nouvel objet"
+msgstr "Nouvel Objet"
 
 msgid "New sprite:"
 msgstr "Nouvel objet"
@@ -1322,8 +1312,9 @@ msgstr "Outil texte (modifier la couche texte)"
 msgid "That variable name is already in use"
 msgstr "Ce nom de variable est déjà utilisé"
 
+#, fuzzy
 msgid "that way"
-msgstr "dans ce sens-là"
+msgstr "Dans ce sens"
 
 msgid "The file name already exists. Overwrite existing file?"
 msgstr "Le fichier existe déjà. Remplacer le fichier existant ?"
@@ -1331,11 +1322,13 @@ msgstr "Le fichier existe déjà. Remplacer le fichier existant ?"
 msgid "thing"
 msgstr "chose"
 
+#, fuzzy
 msgid "this way"
-msgstr "dans ce sens-ci"
+msgstr "Dans cet autre sens"
 
+#, fuzzy
 msgid "tilt"
-msgstr "bip"
+msgstr "tilt"
 
 msgid "true"
 msgstr "vrai"
@@ -1344,7 +1337,7 @@ msgid "Turbo speed"
 msgstr "Vitesse turbo"
 
 msgid "turn into new sprite"
-msgstr "en faire un nouvel objet"
+msgstr "en faire un nouveal objet"
 
 msgid "Undelete"
 msgstr "Ne pas effacer"
@@ -1409,11 +1402,6 @@ msgstr "Zoom arrière"
 ############################################
 # MIDI INSTRUMENTS
 ############################################
-############################################
-# FORMATTING
-# BLOCKS
-# USER INTERFACE
-# MIDI INSTRUMENTS
 
 msgid "Accordion"
 msgstr "Accordéon "
@@ -1740,7 +1728,7 @@ msgid "Open Triangle"
 msgstr "Triangle ouvert"
 
 msgid "Orchestra Hit"
-msgstr "Coup d'orchestre"
+msgstr ""
 
 msgid "Orchestral Strings"
 msgstr "Cordes d'orchestre"
@@ -1939,3 +1927,4 @@ msgstr "Bloc de bois"
 
 msgid "Xylophone"
 msgstr "Xylophone"
+
